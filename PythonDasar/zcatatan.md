@@ -14,6 +14,7 @@ multi
 baris
 """
 ```
+* bisa dilihat di file [komen](comment.py)
 
 ## Number
 * ada beberapa tipe tapi yang umum 
@@ -21,8 +22,8 @@ baris
     - float, untuk bilangan desimal
     - misal ingin mengetahui tipe data gunakan `print(type(x))
     - x  sebagai variabel yang ingin diketahui tipenya
-* bisa dilihat di file `number`
- 
+* bisa dilihat di file [number](number.py)
+
 ## Operasi matematika
 * digunakan untuk operasi matematika dan bahkan bisa digunakan untuk menggabungkan beberapa string
 * operator umum
@@ -33,6 +34,7 @@ baris
     - `%` modulus, atau sisa bagi jadi yang muncul itu cuma sisa dari pembagian, misal 10 / 3 maka sisanya 1, jadi yang ditampilkan 1
     - `//` pembagian bulat jadi misalnya 10 /3 hasilnya 3.3333 dibulatkan hasilnya langsung 3 saja
     - `**` operasi pangkat
+* bisa dilihat di file [Operasi Matematika](operasiMatematika.py)
 
 ## Variable
 * digunakan untuk menyimpan nilai
@@ -40,6 +42,7 @@ baris
 * bisa dilihat di file `variable`
 * nama variable tidak boleh diawali angka, tetapi bisa ditambah angka
 * tidak perlu deklarasi tipe data
+* bisa dilihat di file [Variable](variable.py)
 
 ## String / teks
 * bisa disebut teks, bisa di tulis dengan kutip  maupun kutip 2
@@ -50,28 +53,31 @@ baris
     - `print(teks[0:7])`, artinya mengambil huruf dari index 0 sampai sebelum 7 jadi yang diambil(belajar)
     - `print(len(teks))`, artinya menghitung panjang dari isi variable teks, (dimulai dari 1, dan spasi dihitung), jadi hasilnya 14
     - `print(teks.replace("bareng", "sendiri"))` jadi mengubah kata bareng jadi sendiri, dengan aturan bahwa harus sama huruf besar dan kecilnya, dan misal ada banyak kata "bareng" maka akan diganti semua
+* bisa dilihat di file [String](teks.py)
 
 ## String Format
 * digunakan untuk menyisipkan variable ke sebuah string/teks
-* bisa dilihat di file `formatString`
+* bisa dilihat di file [Format String](formatString.py)
 
 ## input
 * digunakan untuk mengambil input dari pengguna
 * dan secara default input bertipe `str()`
-* bisa dilihat di file `input`
+* bisa dilihat di file [Input](input.py)
 
 ## Input Number
 * sama seperti tadi, tetapi karena default input itu string jadi harus merubahnya menjadi int/float
-* bisa dilihat di file `inputNumber`
+* bisa dilihat di file [input Number](inputNumber.py)
 
 ## Boolean
 * hanya memiliki 2 nilai yaitu true or false
+* bisa dilihat di file [Boolean](boolean.py)
 
 ## Operator Logika
 * terdapat 3 yaitu
     - `and`, kedua variable harus bernilai true maka hasilnya true, jika salah 1 atau dua duanya false maka hasilnya false
     - `or` , cukup salah satu variable atau dua duanya true maka hasilnya true, akan bernilai false jika kedua variablenya bernilai false
     - `not`, kebalikannya jika `not true` maka hasilnya false, dan begitupun sebaliknya
+* bisa dilihat di file [Operator Logika](operatorLogika.py)
 
 ## Operator Perbandingan
 * Operator ini digunakan untuk membandingkan dua nilai dan hasilnya selalu boolean
@@ -82,17 +88,23 @@ baris
     - `>`, lebih besar misal 6>5 hasilnya `true`
     - `<=` lebih kecil sama dengan misal 6 <= 6 hasilnya `true`
     - `>=` lebih besar sama dengan misal 6 >= 7 hasilnya `false`
+* bisa dilihat di file [Operator Perbandingan](operatorPerbandingan.py)
+
 
 
 ## If statemen
 * digunakan untuk kondisi yang akan terpenuhi
 * misal kondisi terpenuhi harus ada tab atau spasi 4x (indentasi)
+* bisa dilihat di file [IF](if.py)
+
 
 ## else statemen
 * else digunakan jika kondisi if itu tidak terpenuhi
+* bisa dilihat di file [Else](else.py)
 
 ## Elif statemen
 * digunakan jika ada kondisi dimana banyak pilihan(tidak hanya salah atau benar)
+* bisa dilihat di file [elif](elif.py)
 
 ## List
 * sebuah variable yang digunakan untuk menyimpan banyak data
@@ -107,6 +119,7 @@ baris
 
 * list itu unik data bisa campur mau itu string, int, boolean float pun bisa
 * dan bisa menyimpan list didalam list(nested list) bisa dilihat di file list
+* bisa dilihat di file [List](list.py)
 
 ## For loop
 * bisa digunakan untuk mengakses array
@@ -116,20 +129,23 @@ baris
     misa lagi range(mulai,sampai,selisih), range(1, 5, 2) maka (1,3)
     - `enumerate`, akan mengubah list jadi pasangan (index, item) yang pasti harus gunakan 2 variable, 1 untuk mengakses list satu lagi untuk index
 
-* bisa dilihat di file `program_forLoop` dan `forLoop`
+* bisa dilihat di file [Program Forloop](program_forLoop.py) dan [forloop](forLoop.py)
 
 ## while loop
-* while loop digunakan untuk mengulang kode selama suatu kondisi bernilai True.\
+* while loop digunakan untuk mengulang kode selama suatu kondisi bernilai True.
 * Digunakan jika tidak tahu pasti kapan harus berhenti
+* bisa dilihat di file [while loop](while_loop.py)
 
 ## continue
 * biasanya berguna untuk mengskip program dalam looping, jadi program hanya melewatkan tanpa memberhentikan program
 * Bisa digunakan di for dan while
+* bisa dilihat di file [Continue](continue.py)
 
 ## break
 * Digunakan untuk menghentikan loop secara paksa, meskipun kondisinya masih True.
 * digunakan untuk menstop biasanya untuk perulangan atau kondisi
 * Setelah break, program akan keluar dari loop dan lanjut ke baris setelah loop.
+* bisa dilihat di file [Break](break.py)
 
 ## Tuple
 * jika list menggunakan `[]` maka Tuple menggunakan `()`
@@ -138,6 +154,7 @@ baris
 * Cocok untuk data yang tidak ingin diubah.
 * Lebih cepat dan aman dibanding list.
 * Bisa diakses dengan index (data[0]) tapi tidak bisa append, remove, dll.
+* bisa dilihat di file [Tuple](tuple.py)
 
 ## tipe data set
 * mirip dengan list dan tuple, tetapi set menggunakan `{}`
@@ -148,15 +165,18 @@ baris
 * jika dalam list itu menggunakan `append` di set menggunakan `add` untuk menambah data
 * untuk menghapus data sama dengan list menggunakan `remove`
 * Untuk mengecek apakah elemen ada di set: `if "apel" in buah:`
+* bisa dilihat di file [Set](set.py)
 
 ## method / function
 * method digunakan untuk mengelompokkan kode agar bisa dipanggil berkali-kali. Bisa dengan atau tanpa parameter.
 * digunakan agar tidak terjadi duplikasi code
+* bisa dilihat di file [Method](method.py)
 
 ## method parameter
 * Parameter digunakan untuk mengirim data ke dalam fungsi.
 * `print("parameter")` ini sebenarnya adalah method isi didalam tanda kurung itulah parameter
 * argumen adalah data yang dimasukan ke parameter
+* bisa dilihat di file [Method parameter](methodParam.py)
 
 ## default value argument
 * jadi kalau ada parameter saat memanggil parameter dan g ada isinya itu pasti error
@@ -167,12 +187,14 @@ baris
 * misal kita memiliki parameter `def hello(firstname="Eka",lastname=" ")`
 * dan kita ingin hanya mengisi bagian lastname kita bisa langsung panggil parameternya
 * `hello(lastname="Jiparolim")`
+* bisa dilihat di file [Default Value](defaultValue.py)
 
 ## argumen  list
 * tambahkan `*` di depan parameter
 * digunakan ketika kita ingin mengirim banyak argumen sekaligus ke dalam satu parameter.
 * mengubah semua argumen yang dikirim menjadi tuple
 * bisa digabung dengan parameter biasa, dengan catatan parameter biasa harus duluan
+* bisa dilihat di file [Argument List](argumenList.py)
 
 ## Return Value
 * digunakan di dalam fungsi (function/method) untuk mengembalikan suatu nilai ke luar fungsi agar bisa disimpan dan digunakan lagi di bagian lain dari program.
@@ -181,6 +203,7 @@ baris
     - Fungsi menjadi lebih fleksibel dan bisa digunakan ulang.
 * jika tanpa return fungsinya hanya untuk mencatatat teks, tanpa bisa digunakan ulang
 * retur juga bisa lebih adri 1 data, bisa menggunakan tuple, list boolean dll
+* bisa dilihat di file [Return](returnValue.py)
 
 ## Dictionary
 *  adalah tipe data yang menyimpan pasangan key (kunci) dan value (nilai).
@@ -202,6 +225,7 @@ biodata = {
     - Mengambil semua key	`biodata.keys()`
     - Mengambil semua value	`biodata.values()`
     - Mengambil semua item	`biodata.items()`
+* bisa dilihat di file [Dictionary](dictionary.py)
 
 ## Key Word Argument list
 * **kwargs adalah cara untuk mengirim banyak parameter dengan nama (dalam bentuk pasangan key=value) ke dalam fungsi.
@@ -217,6 +241,7 @@ def sapa(**kwargs):
 sapa(nama="Rina")   # Output: Halo, Rina!
 sapa()              # Output: Halo, Tamu!
 ```
+* bisa dilihat di file [Keyword Argument](keywordArgument.py)
 
 ## module
 * cara untuk mengambil function/method, class dan lain lain dari file yang berbeda
@@ -239,7 +264,8 @@ from modul import tambah
 tampil = tambah(10,2)
 print(tampil)
 ```
-* jadi jika kita hanya mengimport sebagian data tidak perlu deklarasi anma file lagi didepan methodnya seperti `modul.tambah()` 
+* jadi jika kita hanya mengimport sebagian data tidak perlu deklarasi nama file lagi didepan methodnya seperti `modul.tambah()` 
+* bisa dilihat di folder [Module](/module/)
 
 ## Numeric types
 * integer, bilangan bulat
