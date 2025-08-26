@@ -10,11 +10,13 @@ print(pelanggan[2])
 for nama in pelanggan:
     print(f"Hallo {nama}")
 
+#1, sebagai titik mulai, 5 sebagai batas akhir(tidak ikut dicetak), 2 sebagai beda,
+# jadi yang di cetak 1, 3
+# range(start, stop, step)
 for i in range(1, 5, 2):
     print(i)
     
 # penjelasan
-#
 # karena len dari pelanggan itu 3 maka range(3)
 # karena i menyimpan nilai range(3) itu menjadi 0, 1, 2
 # dan saat i ditampilkan maka yang keluar 0 dan mengakses pelanggan dengan index 0

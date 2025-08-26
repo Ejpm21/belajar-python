@@ -11,3 +11,9 @@ def hallo(sapa,*nama):
         print(f"{sapa}, {i}" )
         
 hallo("selamat pagi", "eka", "jipa" ,"rolim")
+
+def halo(nama, *kata):
+    kalimat = " ".join(kata)
+    print(f"halo {nama}, {kalimat}")
+
+halo("eka","saya","sedang","belajar","argument","list")

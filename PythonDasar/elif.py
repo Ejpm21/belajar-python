@@ -8,3 +8,4 @@ elif menu == "3":
     print("Anda memilih menu 3")
 else:
     print("Menu yang anda oilih tidak tersedia di menu")
+

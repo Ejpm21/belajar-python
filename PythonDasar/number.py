@@ -12,3 +12,6 @@ print(int(x))
 # y jadi ada komanya
 y = 5
 print(float(y))
+
+z = 2.0
+print(int(z))

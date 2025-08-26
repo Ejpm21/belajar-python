@@ -3,5 +3,5 @@
 menikah = False
 jomblo = True
 
-print(menikah)
+print(type(menikah))
 print(jomblo)

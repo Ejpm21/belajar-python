@@ -3,9 +3,9 @@ kota = 'jakarta raya'
 
 nama_depan = "Eka"
 nama_belakang = "Jiparolim"
-nama_leengkap = nama_depan + " " + nama_belakang
+nama_lengkap = nama_depan + " " + nama_belakang
 
-print(nama_leengkap)
+print(nama_lengkap)
 
 ## contoh
 teks = "Belajar python itu gampang python"

@@ -8,11 +8,12 @@ def jumlah(*angka):
 # dalam artian penjulaham = (total, angka)
 penjumlahan = jumlah(20, 15, 30)
 print(f" {penjumlahan[1]} totalnya adalah {penjumlahan[0]}")
-
+print("=======================================================================")
 # bisa melakukan looping untuk mengakses semua datanya
 for i in penjumlahan[1]:
     print(i)
 print(f"dan totalnya yaitu {penjumlahan[0]}")
+print("=======================================================================")
 
 # tidak bisa karena tidak mengembalikan nilai karena print hanya untuk output, jadi tidak bisa disimpan dalam variable
 def jumlahh(*angka):
@@ -23,6 +24,7 @@ def jumlahh(*angka):
 
 anjay = jumlahh(10, 10, 10)
 print(anjay)
+print("=======================================================================")
 
 #contoh impelemntasi pada pajak barang
 # jadi method  pajak menyimpan nilai totalPajak saay variable x berisik method pajak dengan parameter
@@ -34,3 +36,13 @@ def pajak(pajakk, harga):
 
 x = pajak(10, 100)
 print(f"total harga barang ditambah pajak yaitu {x}")
+print("=======================================================================")
+
+
+# for i in tambah[1]:
+#     if i == tambah[1][0]:
+#         print(i, end="")
+#     else:
+#         print(f" + {i}", end="")
+# print(f" = {tambah[0]}")
+
